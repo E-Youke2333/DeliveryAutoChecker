@@ -1,0 +1,41 @@
+#python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+*.tmp
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+test_file/*.docx
+test_file/*.md
+MYSQL_PASSWORD.txt
+*.db
+*.sqlite
+
+# Secrets
+*secret*
+*.pem
+*.key

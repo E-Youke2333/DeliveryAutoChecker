@@ -1,0 +1,11 @@
+# 文档解析
+python-docx
+markdown
+# 网络请求（AI接口调用）
+requests
+# 数据库连接
+mysql-connector-python
+# 表格导出报告
+pandas
+openpyxl
+
