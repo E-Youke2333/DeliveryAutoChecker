@@ -1,0 +1,27 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "your_password_here",
+        "database": "delivery_quality",
+        "charset": "utf8mb4"
+    },
+    "app": {
+        "test_folder": "./test_file",
+        "log_level": "INFO",
+        "supported_extensions": [".md", ".docx", ".txt"],
+        "required_keywords": ["交付说明书", "验收报告", "测试报告"]
+    },
+    "logging": {
+        "enable_db_log": true,
+        "enable_file_log": false,
+        "log_file": "./logs/checker.log",
+        "max_log_size_mb": 10
+    },
+    "scan": {
+        "recursive": false,
+        "exclude_patterns": ["~$", ".tmp", ".bak"],
+        "max_file_size_mb": 50
+    }
+}

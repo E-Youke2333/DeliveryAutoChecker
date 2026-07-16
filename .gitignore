@@ -39,3 +39,18 @@ MYSQL_PASSWORD.txt
 *secret*
 *.pem
 *.key
+
+# Configuration
+config.json
+*.local.json
+.env
+
+# Logs
+logs/
+*.log
+
+# Test files
+test_file/*.docx
+test_file/*.md
+test_file/*.txt
+!test_file/.gitkeep
